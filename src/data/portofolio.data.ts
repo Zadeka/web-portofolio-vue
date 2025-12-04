@@ -78,7 +78,7 @@ export const experiences: Experience[] = [
 export const projects: Project[] = [
   {
     title: "Velox Starter Kit",
-    image: "/src/assets/velox.png",
+    image: "https://github.com/Zadeka/web-portofolio-vue/blob/main/src/assets/velox.png?raw=true",
     desc: "A production-ready React starter template powered by modern web technologies and best practices.",
     tech: [
       "React",
@@ -95,7 +95,8 @@ export const projects: Project[] = [
   },
   {
     title: "Random User Profile Card",
-    image: "/src/assets/random-user-generator.png",
+    image:
+      "https://github.com/Zadeka/web-portofolio-vue/blob/main/src/assets/random-user-generator.png?raw=true",
     desc: "An interactive web application displaying random user profile cards. It fetches data from the Random User Generator API and presents it in a clean, modern interface.",
     tech: ["Vite", "React", "TypeScript", "Tailwind CSS", "Axios", "Lucide-react", "prettier"],
     link_github: "https://github.com/Zadeka/random-user-generator-project",
@@ -103,7 +104,8 @@ export const projects: Project[] = [
   },
   {
     title: "AniBox v1",
-    image: "/src/assets/anibox-v1.png",
+    image:
+      "https://github.com/Zadeka/web-portofolio-vue/blob/main/src/assets/anibox-v1.png?raw=true",
     desc: "AniBox is a modern web application for exploring, searching, and discovering your favorite anime. Built with cutting-edge technologies to ensure optimal performance and a delightful user experience.",
     tech: [
       "React",
