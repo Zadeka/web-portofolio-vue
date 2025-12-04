@@ -3,7 +3,7 @@ import { ref } from "vue";
 import { Code2, Menu, X } from "lucide-vue-next";
 import { Button } from "@/components/ui/button";
 import ThemeToggle from "@/components/ThemeToggle.vue";
-import { navLinks } from "@/data/portofolio.data"; // Import data
+import { navLinks } from "@/data/portofolio.data";
 
 const isMenuOpen = ref(false);
 const toggleMenu = () => (isMenuOpen.value = !isMenuOpen.value);

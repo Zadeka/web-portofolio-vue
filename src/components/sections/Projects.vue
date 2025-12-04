@@ -23,7 +23,6 @@ useIntersectionObserver(
   { threshold: 0.2 }, // Trigger when 50% of the section is visible
 );
 
-// Menerima data sebagai props
 defineProps<{
   data: typeof projects;
 }>();

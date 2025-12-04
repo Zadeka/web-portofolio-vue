@@ -18,7 +18,6 @@ import { experiences, projects } from "@/data/portofolio.data";
     class="bg-background text-foreground selection:bg-primary selection:text-primary-foreground min-h-screen font-sans transition-colors duration-500"
   >
     <Navbar />
-
     <main>
       <Hero />
       <About />
@@ -26,7 +25,6 @@ import { experiences, projects } from "@/data/portofolio.data";
       <Experience :data="experiences" />
       <Projects :data="projects" />
     </main>
-
     <Footer />
   </div>
 </template>
